@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>ShadowKey Web Session Demo</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<main class="card">
+  <div class="badge">SHADOWKEY</div>
+  <h1>Web Session Demo</h1>
+  <p class="muted">A safe demo for testing cookies created by this website.</p>
+
+  <label>Username</label>
+  <input id="username" placeholder="demo-user" autocomplete="off">
+
+  <button id="login">Create Demo Session</button>
+  <button id="show" class="secondary">Show My Demo Cookie</button>
+
+  <div id="status" class="status">No demo session created.</div>
+
+  <div class="note">
+    This page creates only its own demo cookie. It cannot read Chrome's
+    cookies or cookies belonging to other websites.
+  </div>
+</main>
+<script src="script.js"></script>
+</body>
+</html>
